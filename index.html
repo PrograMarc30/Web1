@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: blue;
+            background-position: center;
+            margin: auto;
+            width: 300%;
+            height: 216px;
+            font-size: 30px
+        }
+
+        button.center{
+            background-image: url("images/mirthz.1.png");
+            /* background-color: red; */
+            background-size: 100%;
+            margin: auto;
+            width: 400%;
+            height: 300px;
+        }
+
+        button.laterals{
+            background-color: blue;
+            margin: auto;
+            width: 300%;
+            height: 300px;
+        }
+
+        section{
+            background-color: white;
+            color: gray;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .juego1{
+            background-image: url("images/piedra_papel_o_tijeras.png");
+            background-size: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form id="formulario1" action="juego1.html"></form>
+    <form id="formulario2" action="juego2.html"></form>
+    <form id="formulario3" action="juego3.html"></form>
+    <form id="formulario4" action="juego4.html"></form>
+    <form id="formulario5" action="juego5.html"></form>
+    <form id="formulario6" action="juego6.html"></form>
+    <form id="formulario7" action="juego7.html"></form>
+    <form id="formulario8" action="juego8.html"></form>
+    <section>
+        <button class="juego1" form="formulario1"></button>
+        <button form="formulario2">juego 2</button>
+        <button form="formulario3">juego 3</button>
+    </section>
+    <section>
+        <button class="laterals" form="formulario4">juego 4</button>
+        <button class="center"></button>
+        <button class="laterals" form="formulario5">juego 5</button>
+    </section>
+    <section>
+        <button form="formulario6">juego 6</button>
+        <button form="formulario7">juego 7</button>
+        <button form="formulario8">juego 8</button>
+     </section>
+</body>
+</html>
